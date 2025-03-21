@@ -6,7 +6,8 @@ body {
     text-align: justify;
     flex-direction: column;
     min-height: 100vh;
-    background-color:burlywood;
+    background-color:rgb(255, 228, 182)!important;
+    margin-left: 10px !important;
 
     h2{
         color:darkslategray;
@@ -21,15 +22,6 @@ body {
     p{
       width: 60%;
       
-    }
-    
-    button {
-        display: inline-block; 
-        background-color:darkgoldenrod;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
     }
     
     span {
@@ -63,6 +55,7 @@ body {
         p{
             width: 100%;
             margin-right: 10px;
+            text-align: justify;
         }
 
         #one-piece{
@@ -71,4 +64,44 @@ body {
 
         }
     }
+
+    .container{
+        font-weight:normal;
+        background-color:darkkhaki;
+        max-width: 600px;
+        margin-left: 10px !important;
+
+    }
+    .titulo-tabla{
+        font-weight: bold;
+        font-size: 20px;
+        
+        
+    }
+    .btn-primary{
+        background-color:darkgoldenrod;
+        border-color: black;
+
+    }
+
+    .border{
+        border-color: rgb(0, 0, 0, 0.5) !important;
+        
+    }
+
+    .card{
+        background-color:darkgray !important;
+        max-width: 300px;
+    }
+
+    .navbar{
+        background-color:rgba(248, 210, 127, 0.863) !important;
+        margin-left: -10px !important;
+    }
+
+    #news{
+        max-width:fit-content !important;
+        
+    }
+
 } 
